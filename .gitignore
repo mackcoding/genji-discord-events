@@ -1,0 +1,85 @@
+# Binaries, plugins, libs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of the go build
+*.out
+
+# Dependency directories
+vendor/
+
+# IDEs and editors
+/.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other
+*.bak
+*.tmp
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.s
+
+# Folders
+_obj
+_test
+dist
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+# JetBrains IDEs
+.idea/
+
+# VSCode directories
+.vscode/
+
+# GoLand directories
+.idea/
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# crapmacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Directories used by the macOS Finder
+._*
+.Trashes
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows thumbnail cache files
+ehthumbs.db
+Thumbs.db
